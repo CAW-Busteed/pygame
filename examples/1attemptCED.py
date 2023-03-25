@@ -12,7 +12,7 @@ class Player(pg.sprite.Sprite):
         #TODO:figure out how to make a small square sprite
         self.rect =
     def update(self):
-        """move the fist based on the mouse position"""
+        #apparently this moves sprite based on mouse
         pos = pg.mouse.get_pos()
         self.rect.topleft = pos
 
