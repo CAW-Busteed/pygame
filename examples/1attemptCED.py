@@ -10,7 +10,7 @@ class Player(pg.sprite.Sprite):
     def __init__(self):
         pg.sprite.Sprite.__init__(self)  # call Sprite initializer
         #TODO:figure out how to make a small square sprite
-        self.rect =
+        self.rect = pg.draw.rect()
     def update(self):
         #apparently this moves sprite based on mouse
         pos = pg.mouse.get_pos()
